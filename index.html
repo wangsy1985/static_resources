@@ -6,21 +6,23 @@
 
   <style>
   html, body {    
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     overflow: hidden; /* 禁止滚动 */
   }
-    
-  * {
-    padding: 0;
-    margin: 0;
+
+  .iframe-container {
+    width: 100%;
+    height: 100vh;  /* 使用视口高度，确保容器占满屏幕 */
+    overflow: hidden;
   }
     
   iframe {
     width: 100%;
     height: 100%;  /* 确保 iframe 撑满父容器 */
     border: none;
-    overflow: hidden; /* 禁止滚动 */
   }
   </style>
   
@@ -46,7 +48,7 @@
   </script>
 </head>
 <body>
-  <div style="text-align: center;">
+  <div class="iframe-container">
   <iframe 
     src="https://script.google.com/macros/s/AKfycbwtnGXbdiBJcozxIKrfh6c4uRpEj7l4FU29rN2MI8mP1OSy6hELtMVz_sRmDbOzWiAkqw/exec">
   </iframe>
