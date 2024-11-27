@@ -4,6 +4,7 @@ const urlsToCache = [
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
+  'https://script.google.com/macros/s/AKfycbwtnGXbdiBJcozxIKrfh6c4uRpEj7l4FU29rN2MI8mP1OSy6hELtMVz_sRmDbOzWiAkqw/exec',
 ];
 
 // 安装阶段：缓存静态资源
